@@ -1,0 +1,9 @@
+title: Ruang Belajar - Dart Flutter
+description: Repositori catatan Dart-Flutter
+domain: pujangga123.github.io
+url: http://pujangga123.github.io/ruang-belajar-dart-flutter
+github_username:  pujangga123
+
+remote_theme: pages-themes/minimal
+plugins:
+- jekyll-remote-theme
