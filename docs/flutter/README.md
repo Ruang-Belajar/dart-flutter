@@ -13,15 +13,14 @@ Setup dan persiapan yang perlu dilakukan untuk memulai Flutter
 
 Untuk panduan instalasi, Anda bisa check [Youtube: Dart & Flutter Installation (Erico Darmawan Handoyo)](https://youtu.be/asNdz10WR6w?si=ePXjDAwlqsD8POSw)
 
-## Hello World
-Memulai dengan program pertama Anda
-- [My First Application (Erico Darmawan Handoyo)](https://www.youtube.com/watch?v=DzzFF-0U2Lw&list=PLZQbl9Jhl-VACm40h5t6QMDB92WlopQmV&index=6)
+## Catatan Belajar
+- [Widget Catalog](widget-catalog.md)
 
 ## Dokumentasi
 - [Flutter Documentation](https://docs.flutter.dev/)
 
 ## Playlist Belajar Flutter
-- [Flutter Tutorial | Flutter Fundamentals (Erico Darmawan Handoyo)](https://www.youtube.com/watch?v=SoX3cel4LRM&list=PLZQbl9Jhl-VACm40h5t6QMDB92WlopQmV)
+- [Flutter Tutorial - Flutter Fundamentals (Erico Darmawan Handoyo)](https://www.youtube.com/watch?v=SoX3cel4LRM&list=PLZQbl9Jhl-VACm40h5t6QMDB92WlopQmV)
 
 **Referensi Belajar:**
 - [iampawan/FlutterExampleApps](https://github.com/iampawan/FlutterExampleApps)

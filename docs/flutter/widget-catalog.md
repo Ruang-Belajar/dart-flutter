@@ -7,9 +7,10 @@ Daftar ini diambil dari [Flutter - Widget Catalog](https://docs.flutter.dev/ui/w
 **Referensi"**
 - [AppBar - Flutter Docs](https://api.flutter.dev/flutter/material/AppBar-class.html)
 
-### Container
+### Container 
 **Referensi"**
 - [Container - Flutter Docs](https://api.flutter.dev/flutter/widgets/Container-class.html)
+- [Catatan `Container`](container.md)
 
 ### Column
 ```dart
@@ -18,7 +19,7 @@ const Column(
     Text('Baris 1'),
     Text('Baris 2'),
   ],
-)
+) 
 ```
 **Referensi"**
 - [Column - Flutter Docs](https://api.flutter.dev/flutter/widgets/Column-class.html)
@@ -65,6 +66,10 @@ Image.asset('assets/images/lake.jpg'),
 ### Placeholder
 
 ### Row
+**Referensi:**
+- [Catatan Row](row.md)
+- [Row - Flutter Docs](https://api.flutter.dev/flutter/widgets/Row-class.html)
+
 
 ### Scaffold
 
