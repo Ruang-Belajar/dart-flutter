@@ -5,10 +5,10 @@ Setup dan persiapan yang perlu dilakukan untuk memulai Flutter
 - Download & Install Android Studio
   - Install _Android SDK_
 - Download & Install Visual Studio Code
-  - Install extension: _Flutter_
-  - Setup _environment path_
+  - Install extension: _Flutter_ dan _Dart_
 - Download & Setup Flutter
   - [Install Flutter](https://docs.flutter.dev/get-started/install)
+  - Setup _environment path_
   - gunakan perintah `flutter doctor` untuk memeriksa kelengkapan instalasi
 - Setup HP sebagai perangkat test aplikasi
   - Masuk ke _Developer Mode_ di HP.
