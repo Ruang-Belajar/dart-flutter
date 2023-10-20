@@ -1,6 +1,6 @@
 # Dart: Pendahuluan
 
-Bila mempergunakan Dart sebagai bahasa pemrograman untuk membuat aplikasi, maka kalian harus tahu dulu definisinya seperti apa. Dart adalah sebuah bahasa pemrograman yang dibuat oleh Google pada tahun 2007 yang berfokus pada optimalisasi dari sisi client, Dart yang dipimpin oleh Lars Bak dan Kasper Lund, kemudian dirilis tepatnya pada tahun 2011. Dart ini merupakan bahasa pemrograman yang memiliki orientasi pada objek dan memiliki Syntax yang sama dengan C++, Java, atau juga Javascript.
+Bila mempergunakan Dart sebagai bahasa pemrograman untuk membuat aplikasi, maka kalian harus tahu dulu definisinya seperti apa. Dart adalah sebuah bahasa pemrograman yang dibuat oleh Google pada tahun 2007 yang berfokus pada optimalisasi dari sisi client, Dart yang dipimpin oleh _Lars Bak_ dan _Kasper Lund_, kemudian dirilis tepatnya pada tahun 2011. Dart ini merupakan bahasa pemrograman yang memiliki orientasi pada objek dan memiliki syntax yang sama dengan C++, Java, atau juga Javascript.
 
 Tujuan Google membuat bahasa pemrograman ini adalah untuk supaya bisa membangun aplikasi seluler dan juga desktop. Kemudian di tahun 2018 Google melakukan pengembangan yang sangat signifikan terhadap Dart ini dan membuatnya jadi lebih menarik dipergunakan.
 
@@ -21,7 +21,7 @@ Dalam menjalankan Dart sendiri memang ada beberapa pilihan cara, total itu ada s
 3. Syntax dari Dart ini bisa dijalankan di mode lain di browser Dartium yang merupakan Chromium khusus yang menyertakan VM Dart. Jadi browser tersebut memiliki dukungan langsung pada kode Dart yang membuatnya tidak perlu mengubah menjadi Javascript.
 4. Dart juga bisa dijalankan dengan mode AOT yang bisa mengubah kode Dart menjadi native code secara langsung. Mode inilah yang digunakan Dart pada Flutter.
 
-## Kelebihan Dart Adalah
+## Kelebihan Dart
 
 Sebagai bahasa pemrograman yang dibuat oleh Google, sudah pasti Dart ini memiliki beberapa kelebihan yang cukup besar ya. Kelebihan yang dimiliki oleh Dart ini pun menjadi alasan juga yang membuat orang pun menginginkan untuk mempelajari Dart ini. Berikut ini beberapa kelebihan dari Dart yang membuat orang pun tertarik untuk belajar Dart.
 
@@ -45,9 +45,20 @@ Dart menyediakan Dartpad untuk kalian yang mungkin ingin mempergunakannya tanpa 
 ### Lebih Cepat
 Kelebihan yang terakhir itu adalah Dart merupakan bahasa pemrograman yang lebih cepat bahkan dari Javascript. Ini akan membuat waktu yang dibutuhkan untuk membuat program itu akan lebih cepat dan tentunya juga lebih efisien ya. Kalian bisa menyelesaikan deadline program dengan jauh lebih cepat bila mempergunakan Dart ini.
 
-## Kekurangan Dart Adalah
-Tentunya Dart pun memiliki beberapa kekurangan yang sudah pasti harus kalian ketahui dan pahami terlebih dahulu. Dart merupakan bahasa pemrograman yang baru jadi wajar memiliki kekurangan seperti resource yang terbilang masih terbatas. Selain itu informasi mengenai Dart ini pun belum terlalu banyak, jadi memang harus ekstra dalam mencarinya dan juga mempergunakannya.
+## Kekurangan Dart
+### Sulitnya untuk Menggunakan Pustaka JavaScript
+Bahasa dart memiliki pustaka dan alatnya sendiri, sehingga ketika Anda sedang mengalihkannya dari bahasa dart ke bahasa JavaScript, ini akan sangat menyulitkan. Anda tidak bisa berinteraksi langsung untuk menggunakan pustaka JavaScript. Suka atau tidak, Anda harus menggunakan pustaka khusus yang mengekspos versi JavaScript.
+
+### Resource yang Terbatas
+Bahasa pemrograman dart diluncurkan baru-baru ini, itu sebabnya resources (sumber daya) seperti komunitas developer masih kurang banyak, Anda akan keterbatasan untuk terhubung dengan komunitas yang akan mendukung Anda.
+
+### Pekerjaan Programmer Dart Masih Sulit Ditemukan
+Seperti yang sudah dijelaskan sebelumnya bahwa bahasa pemrograman dart ini masih tergolong baru, jadi berdampak kepada pekerjaan yang dibuka oleh perusahaan terhadap developer dengan kemampuan bahasa pemrograman dart. Jika Anda mencari posisi lowongan programmer dart, ini akan cukup sulit ditemukan karena belum tersebar secara luas.
+
+### Usia Project Relatif Muda
+Bahasa pemrograman Dart masih relatif muda, oleh karena itu, berbagai perubahan masih ada kemungkinan bahwa terjadi. Berbagai perubahan terbaru biasanya belum terdokumentasi dengan baik.
 
 ---
 **Referensi:**
 - [Dart Adalah: Apa Itu Dart ? Definisi, Kelebihan & Kekurangannya](https://course-net.com/blog/dart-adalah/)
+- [Major Advantages And Disadvantages Of Dart Language](https://codecarbon.com/pros-cons-dart-language/)
