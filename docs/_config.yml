@@ -4,6 +4,6 @@ domain: pujangga123.github.io
 url: http://ruang-belajar.github.io/dart-flutter
 github_username:  pujangga123
 
-remote_theme: pages-themes/time-machine@v0.2.0
+remote_theme: pages-themes/modernist
 plugins:
 - jekyll-remote-theme
