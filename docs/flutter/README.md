@@ -19,6 +19,11 @@ Setup dan persiapan yang perlu dilakukan untuk memulai Flutter
 
 Untuk panduan instalasi, Anda bisa check [Youtube: Dart & Flutter Installation (Erico Darmawan Handoyo)](https://youtu.be/asNdz10WR6w?si=ePXjDAwlqsD8POSw)
 
+## Materi Khusus
+1. [Stateless & Stateful Widget](stateless-stateful.md)
+
+---
+
 ## Catatan Belajar
 - [Widget Catalog](widget-catalog.md)
 - [Contoh Layout](contoh-layout.md)
