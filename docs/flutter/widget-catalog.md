@@ -35,13 +35,24 @@ Daftar _icon_ yang bisa digunakan check di [Google Fonts - Material Icons](https
 
 ### Image
 ```dart
+// membaca gambar dari URL
 const Image(
   image: ImageNetwork('https://flutter.github.io/assets-for-api-docs/assets/widgets/owl.jpg'),
 )
 ```
 ```dart
+// Cara 1: membaca data dari asset
 Image.asset('assets/images/lake.jpg'),
 ```
+
+Untuk bisa menggunakan assets, pastikan Anda mendaftarkan folder/file aset pada file `pubspec.yaml`
+```yaml
+flutter:
+  assets:
+    - assets/
+    - images/gambar1.jpg
+```
+
 **Referensi:**
 [Image - Flutter Docs](https://api.flutter.dev/flutter/widgets/Image-class.html)
 - [How to add image in flutter - stackoverflow](https://stackoverflow.com/questions/50903106/how-to-add-image-in-flutter)
