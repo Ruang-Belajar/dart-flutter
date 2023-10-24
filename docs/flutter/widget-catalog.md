@@ -105,6 +105,15 @@ Membuat tampilan berbentuk _grid_.
 
 ### Container
 `Container` digunakan untuk "membungkus" _child_, mengatur ukuran blok area dan memberikan dekorasi seperti warna, _padding_, _border radius_.
+```dart
+Container(
+  padding: const EdgeInsets.all(8.0),
+  color: Colors.blue[600],
+  alignment: Alignment.center,
+  child: Text("Hello"),
+)
+```
+
 **Referensi"**
 - [Container - Flutter Docs](https://api.flutter.dev/flutter/widgets/Container-class.html)
 - [Catatan `Container`](container.md)
@@ -113,3 +122,12 @@ Membuat tampilan berbentuk _grid_.
 **Referensi:**
 - [Catatan Row](row.md)
 - [Row - Flutter Docs](https://api.flutter.dev/flutter/widgets/Row-class.html)
+
+### Expanded
+Container yang secara otomatis mengatur ukurannya sehingga memenuhi area. Biasa digunakan sebagai _children_ `Row` dan `Column`.
+```dart
+Expanded(
+  flex: 1,
+  child: Text("Hallo")
+)
+```
