@@ -11,15 +11,3 @@ Container(
     child: Text('Hello'),
 ),
 ```
-
-```dart
-Container(
-    color: Colors.indigo[200],
-    alignment: Alignment.center, // jika alignment diisi, maka otomatis akan expand memenuhi parent
-    child: Column(          
-        children: <Widget>[
-        Text("Hello"),
-        ],
-    ),
-),
-```

@@ -1,7 +1,6 @@
 # Widget Catalog
 Daftar ini diambil dari [Flutter - Widget Catalog](https://docs.flutter.dev/ui/widgets). Hanya menampilkan widget yang akan dipakai umum dipakai (dalam perkuliahan).
 
-## Basic
 ### AppBar
 
 **Referensi"**
@@ -62,9 +61,9 @@ flutter:
 ```dart
 Scaffold(
   appBar: AppBar(
-    title: const Text('Nextgen Tutorial'),
+    title: Text('Nextgen Tutorial'),
   ),
-  body: const Center(
+  body: Center(
     child: Text("Selamat Datang di Nextgen Tutorial!!"),
   ),
 )
@@ -74,7 +73,6 @@ Scaffold(
 
 ### Text
 
-## Layout
 ### Center
 `Center` adalah blok pengaturan (_alignment block_) yang digunakan untuk mengatur _child_-nya pada posisi tengah.
 
@@ -86,7 +84,7 @@ Center(
 
 ### Column
 ```dart
-const Column(
+Column(
   children: <Widget>[
     Text('Baris 1'),
     Text('Baris 2'),
@@ -105,11 +103,12 @@ Membuat tampilan berbentuk _grid_.
 
 ### Container
 `Container` digunakan untuk "membungkus" _child_, mengatur ukuran blok area dan memberikan dekorasi seperti warna, _padding_, _border radius_.
+Jika parameter `aligment` diisi, maka `Container` menyesuaikan ukuran ke _parent_.s
 ```dart
 Container(
-  padding: const EdgeInsets.all(8.0),
-  color: Colors.blue[600],
-  alignment: Alignment.center,
+  padding: EdgeInsets.all(8.0),  // jarak dari border ke child
+  color: Colors.blue[600], // warna background
+  alignment: Alignment.center, // posisi child
   child: Text("Hello"),
 )
 ```
@@ -124,7 +123,7 @@ Container(
 - [Row - Flutter Docs](https://api.flutter.dev/flutter/widgets/Row-class.html)
 
 ### Expanded
-Container yang secara otomatis mengatur ukurannya sehingga memenuhi area. Biasa digunakan sebagai _children_ `Row` dan `Column`.
+Wadah yang secara otomatis mengatur ukurannya sehingga memenuhi area. Biasa digunakan sebagai _children_ `Row` dan `Column`.
 ```dart
 Expanded(
   flex: 1,
