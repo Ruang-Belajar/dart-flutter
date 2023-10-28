@@ -12,7 +12,7 @@ Daftar ini diambil dari [Flutter - Widget Catalog](https://docs.flutter.dev/ui/w
 ElevatedButton(
   style: style,
   onPressed: () {},
-  child: const Text('Enabled'),
+  child: Text('Enabled'),
 ),
 ```
 **Referensi:**
@@ -35,8 +35,8 @@ Daftar _icon_ yang bisa digunakan check di [Google Fonts - Material Icons](https
 ### Image
 ```dart
 // membaca gambar dari URL
-const Image(
-  image: ImageNetwork('https://flutter.github.io/assets-for-api-docs/assets/widgets/owl.jpg'),
+Image(
+  image: NetworkImage('https://flutter.github.io/assets-for-api-docs/assets/widgets/owl.jpg'),
 )
 ```
 ```dart
@@ -85,7 +85,7 @@ Center(
 ### Column
 ```dart
 Column(
-  children: <Widget>[
+  children: [
     Text('Baris 1'),
     Text('Baris 2'),
   ],
