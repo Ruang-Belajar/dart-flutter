@@ -11,3 +11,17 @@ Container(
     child: Text('Hello'),
 ),
 ```
+---
+
+Container dengan gambar background
+```dart
+Container(
+    decoration: BoxDecoration(
+        image: DecorationImage(
+        image: NetworkImage('https://raw.githubusercontent.com/ruang-belajar/dart-flutter/master/docs/flutter/res/res-2.jpg'),
+        fit: BoxFit.cover,
+        ),
+    ),
+    child: Text("Hallo")
+),
+```
