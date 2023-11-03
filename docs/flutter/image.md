@@ -56,3 +56,10 @@ Image(
   image: NetworkImage('https://raw.githubusercontent.com/ruang-belajar/dart-flutter/master/docs/flutter/res/res-7.jpg'),
 )
 ```
+
+### Potrait
+|  |   |   | 
+| --- | --- | --- |
+| ![](res/res-8.jpg) | ![](res/res-9.jpg) | ![](res/res-10.jpg) | 
+| ![](res/res-11.jpg) | ![](res/res-12.jpg) | ![](res/res-13.jpg) |
+| ![](res/res-14.jpg) | ![](res/res-15.jpg) | ![](res/res-16.jpg) |

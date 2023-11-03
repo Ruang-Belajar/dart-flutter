@@ -27,3 +27,13 @@
   ```
 - Tugas: Setup Visual Studio Code sehingga bisa menjalankan program Flutter.
   Anda bisa check [Youtube: Dart & Flutter Installation (Erico Darmawan Handoyo)](https://youtu.be/asNdz10WR6w?si=ePXjDAwlqsD8POSw) untuk petunjuk _step-by-step_ instalasi.
+
+## Pertemuan 3
+- Setup Github.
+- Membuat Layout [contoh-layout-1](res/contoh-layout-1.jpg)
+  - Widget: `Column`, `Row`, `Expanded`, `Container`, `Text`, `Icon`, `Image`.
+  - Mendaftarkan folder _assets_
+  - Submit ke repositori
+- Membuat Layout [contoh-layout-4](res/contoh-layout-4.png)
+  - Membagi bagian-bagian ke dalam bentuk _function_
+  - Submit ke repositori

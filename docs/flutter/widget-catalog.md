@@ -7,8 +7,19 @@ Daftar ini diambil dari [Flutter - Widget Catalog](https://docs.flutter.dev/ui/w
 **Referensi"**
 - [AppBar - Flutter Docs](https://api.flutter.dev/flutter/material/AppBar-class.html)
 
+---
+
+### Center
+`Center` adalah blok pengaturan (_alignment block_) yang digunakan untuk mengatur _child_-nya pada posisi tengah.
+
+```dart
+Center(
+  child: Text('Hello World'),
+),
+```
 
 ---
+
 ### ElevatedButton
 ```dart
 ElevatedButton(
@@ -20,6 +31,16 @@ ElevatedButton(
 **Referensi:**
 - [ElevatedButton -  Flutter Docs](https://api.flutter.dev/flutter/material/ElevatedButton-class.html)
 - [📚 Catatan ElevatedButton](elevatedbutton.md)
+---
+
+### Expanded
+Wadah yang secara otomatis mengatur ukurannya sehingga memenuhi area. Biasa digunakan sebagai _children_ `Row` dan `Column`.
+```dart
+Expanded(
+  flex: 1,
+  child: Text("Hallo")
+)
+```
 
 ---
 ### Icon
@@ -61,8 +82,8 @@ flutter:
 - [Image - Flutter Docs](https://api.flutter.dev/flutter/widgets/Image-class.html)
 - [📚 Catatan Image + Online Resource](image.md)
 - [How to add image in flutter - stackoverflow](https://stackoverflow.com/questions/50903106/how-to-add-image-in-flutter)
-
 ---
+
 ### Scaffold
 `Scaffold` adalah sebuah widget dalam flutter yang menyediakan banyak widget seperti `Drawer`, `  `, `BottomNavigationBar`, `FloatingActionButton`, `AppBar`, dan lain-lain. `Scaffold` akan memperluas atau menempati seluruh layar perangkat. Widget ini akan menempati ruang yang tersedia. `Scaffold` akan memberikan kerangka untuk menerapkan layout dasar material design dari aplikasi.
 ```dart
@@ -77,6 +98,32 @@ Scaffold(
 ```
 **Referensi:**
 - [Scaffold - Flutter Docs](https://api.flutter.dev/flutter/material/Scaffold-class.html?)
+
+### Stack
+`Stack` adalah sebuah _wadah_ yang menyusun komponen _children_ secara bertumpuk.
+
+```dart
+Stack(
+  alignment: Alignment.bottomRight,
+  children: [
+    Container(
+      width: 100,
+      height: 100,
+      color: Colors.red,
+    ),
+    Container(
+      width: 90,
+      height: 90,
+      color: Colors.green,
+    ),
+    Container(
+      width: 80,
+      height: 80,
+      color: Colors.blue,
+    ),
+  ],
+)
+```
 
 ---
 ### Text
@@ -95,16 +142,7 @@ Text(
 ```
 
 ---
-### Center
-`Center` adalah blok pengaturan (_alignment block_) yang digunakan untuk mengatur _child_-nya pada posisi tengah.
 
-```dart
-Center(
-  child: Text('Hello World'),
-),
-```
-
----
 ### Column
 ```dart
 Column(
@@ -149,11 +187,4 @@ Container(
 - [Row - Flutter Docs](https://api.flutter.dev/flutter/widgets/Row-class.html)
 
 ---
-### Expanded
-Wadah yang secara otomatis mengatur ukurannya sehingga memenuhi area. Biasa digunakan sebagai _children_ `Row` dan `Column`.
-```dart
-Expanded(
-  flex: 1,
-  child: Text("Hallo")
-)
-```
+
