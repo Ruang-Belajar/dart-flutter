@@ -34,11 +34,10 @@ Setup dan persiapan yang perlu dilakukan untuk memulai Flutter
 
 ## Dokumentasi
 - [Flutter Documentation](https://docs.flutter.dev/)
+- [Navigate to a new screen and back](https://docs.flutter.dev/cookbook/navigation/navigation-basics)
 
-## Playlist Belajar Flutter
-- [Flutter Tutorial - Flutter Fundamentals (Erico Darmawan Handoyo)](https://www.youtube.com/watch?v=SoX3cel4LRM&list=PLZQbl9Jhl-VACm40h5t6QMDB92WlopQmV)
-
-**Referensi Belajar:**
+## Referensi Belajar
 - [iampawan/FlutterExampleApps](https://github.com/iampawan/FlutterExampleApps)
 - [Solido/awesome-flutter](https://github.com/Solido/awesome-flutter)
 - [Tutorial Belajar Flutter - PT Nextgen Inovasi Indonesia](https://nextgen.co.id/tutorial-belajar-flutter)
+- [Youtube: Flutter Tutorial - Flutter Fundamentals (Erico Darmawan Handoyo)](https://www.youtube.com/watch?v=SoX3cel4LRM&list=PLZQbl9Jhl-VACm40h5t6QMDB92WlopQmV)

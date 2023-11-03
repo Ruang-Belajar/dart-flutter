@@ -56,6 +56,15 @@ Image(
   image: NetworkImage('https://raw.githubusercontent.com/ruang-belajar/dart-flutter/master/docs/flutter/res/res-7.jpg'),
 )
 ```
+---
+
+![](res/res-17.jpg)
+```dart
+Image(
+  image: NetworkImage('https://raw.githubusercontent.com/ruang-belajar/dart-flutter/master/docs/flutter/res/res-17.jpg'),
+)
+```
+---
 
 ### Potrait
 |  |   |   | 
