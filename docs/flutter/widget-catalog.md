@@ -20,12 +20,44 @@ Center(
 
 ---
 
+### Column
+```dart
+Column(
+  children: [
+    Text('Baris 1'),
+    Text('Baris 2'),
+  ],
+) 
+```
+**Referensi"**
+- [Column - Flutter Docs](https://api.flutter.dev/flutter/widgets/Column-class.html)
+- [📚 Catatan Column](column.md)
+
+
+---
+### Container
+`Container` digunakan untuk "membungkus" _child_, mengatur ukuran blok area dan memberikan dekorasi seperti warna, _padding_, _border radius_.
+Jika parameter `aligment` diisi, maka `Container` menyesuaikan ukuran ke _parent_.s
+```dart
+Container(
+  padding: EdgeInsets.all(8.0),  // jarak dari border ke child
+  color: Colors.blue[600], // warna background
+  alignment: Alignment.center, // posisi child
+  child: Text("Hello"),
+)
+```
+
+**Referensi"**
+- [Container - Flutter Docs](https://api.flutter.dev/flutter/widgets/Container-class.html)
+- [📚 Catatan `Container`](container.md)
+
+---
 ### ElevatedButton
 ```dart
 ElevatedButton(
-  style: style,
+  style: ElevatedButton.styleFrom(shape: StadiumBorder()),
   onPressed: () {},
-  child: Text('Enabled'),
+  child: Text('Button 1'),
 ),
 ```
 **Referensi:**
@@ -43,6 +75,15 @@ Expanded(
 ```
 
 ---
+
+
+### GridView
+Membuat tampilan berbentuk _grid_.
+**Referensi:**
+- [GridView - Flutter Docs](https://api.flutter.dev/flutter/material/GridView-class.html?)
+
+---
+
 ### Icon
 ```dart
 Icon(
@@ -67,15 +108,17 @@ Image(
 ```
 ```dart
 // Cara 1: membaca data dari asset
-Image.asset('assets/images/lake.jpg'),
+Image(
+  image: AssetImage('https://flutter.github.io/assets-for-api-docs/assets/widgets/owl.jpg'),
+)
 ```
 
-Untuk bisa menggunakan assets, pastikan Anda mendaftarkan folder/file aset pada file `pubspec.yaml`
+Untuk bisa menggunakan assets, pastikan Anda mendaftarkan folder/file aset pada file `pubspec.yaml`, section `flutter`, dibawah `uses-material-design: true`
 ```yaml
 flutter:
+  uses-material-design: true
   assets:
     - assets/
-    - images/gambar1.jpg
 ```
 
 **Referensi:**
@@ -84,6 +127,13 @@ flutter:
 - [How to add image in flutter - stackoverflow](https://stackoverflow.com/questions/50903106/how-to-add-image-in-flutter)
 ---
 
+
+### Row
+**Referensi:**
+- [📚 Catatan Row](row.md)
+- [Row - Flutter Docs](https://api.flutter.dev/flutter/widgets/Row-class.html)
+
+--- 
 ### Scaffold
 `Scaffold` adalah sebuah widget dalam flutter yang menyediakan banyak widget seperti `Drawer`, `  `, `BottomNavigationBar`, `FloatingActionButton`, `AppBar`, dan lain-lain. `Scaffold` akan memperluas atau menempati seluruh layar perangkat. Widget ini akan menempati ruang yang tersedia. `Scaffold` akan memberikan kerangka untuk menerapkan layout dasar material design dari aplikasi.
 ```dart
@@ -143,48 +193,5 @@ Text(
 
 ---
 
-### Column
-```dart
-Column(
-  children: [
-    Text('Baris 1'),
-    Text('Baris 2'),
-  ],
-) 
-```
-**Referensi"**
-- [Column - Flutter Docs](https://api.flutter.dev/flutter/widgets/Column-class.html)
-- [📚 Catatan Column](column.md)
 
-
----
-### GridView
-Membuat tampilan berbentuk _grid_.
-**Referensi:**
-- [GridView - Flutter Docs](https://api.flutter.dev/flutter/material/GridView-class.html?)
-
----
-### Container
-`Container` digunakan untuk "membungkus" _child_, mengatur ukuran blok area dan memberikan dekorasi seperti warna, _padding_, _border radius_.
-Jika parameter `aligment` diisi, maka `Container` menyesuaikan ukuran ke _parent_.s
-```dart
-Container(
-  padding: EdgeInsets.all(8.0),  // jarak dari border ke child
-  color: Colors.blue[600], // warna background
-  alignment: Alignment.center, // posisi child
-  child: Text("Hello"),
-)
-```
-
-**Referensi"**
-- [Container - Flutter Docs](https://api.flutter.dev/flutter/widgets/Container-class.html)
-- [📚 Catatan `Container`](container.md)
-
----
-### Row
-**Referensi:**
-- [📚 Catatan Row](row.md)
-- [Row - Flutter Docs](https://api.flutter.dev/flutter/widgets/Row-class.html)
-
----
 
