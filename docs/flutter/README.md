@@ -35,6 +35,7 @@ Setup dan persiapan yang perlu dilakukan untuk memulai Flutter
 ## Dokumentasi
 - [Flutter Documentation](https://docs.flutter.dev/)
 - [Navigate to a new screen and back](https://docs.flutter.dev/cookbook/navigation/navigation-basics)
+- [Membuka URL di Flutter](https://nextgen.co.id/membuka-url-di-flutter/)
 
 ## Referensi Belajar
 - [iampawan/FlutterExampleApps](https://github.com/iampawan/FlutterExampleApps)
