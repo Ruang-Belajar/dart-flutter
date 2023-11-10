@@ -58,3 +58,20 @@ return Scaffold(
 ```
 ![](res/column-2.png)
 ---
+
+Berikut adalah contoh kolom dengan jarak antar objeknya secara proporsional, mengikuti ukuran dari _parent_.
+
+```dart
+Container(
+  height: 100,
+  child: Column(
+    mainAxisAlignment: MainAxisAlignment.spaceBetween, // memberi jarak antar objek
+    children: [
+      const Text('Baris 1'),
+      const Text('Baris 2'),
+      const Text('Baris 3')
+    ],
+  )
+)
+
+```
