@@ -37,3 +37,14 @@
 - Membuat Layout [contoh-layout-4](res/contoh-layout-4.png)
   - Membagi bagian-bagian ke dalam bentuk _function_
   - Submit ke repositori
+
+## Pertemuan 4
+- New Project: Layout2
+- Stack
+- ElevatedButton
+- Multiple page view ➡️ [Navigate to a new screen and back](https://docs.flutter.dev/cookbook/navigation/navigation-basics)
+- contoh: [contoh-layout-5](res/contoh-layout-5.png)
+
+## Pertemuan 5
+- Lanjutkan Layout2
+- url_launcher
