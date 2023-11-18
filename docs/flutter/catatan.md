@@ -48,3 +48,8 @@
 ## Pertemuan 5
 - Lanjutkan Layout2
 - url_launcher
+- memisahkan widget ke file terpisah
+- snippets "stl" untuk generate struktur kode widget _stateless_
+- shortcut merapihkan format: `Shift+Alt+F`
+- Objek: GridView
+- Shortcut: `Ctrl+.`
