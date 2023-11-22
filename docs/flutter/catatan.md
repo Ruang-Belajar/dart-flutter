@@ -47,4 +47,10 @@
 
 ## Pertemuan 5
 - Lanjutkan Layout2
+- Shortcut `Ctrl+Alt+F` untuk merapihkan kode program
+- Shortcut `Ctrl+.` untuk menampilkan menu bantuan memisahkan/membungkus kode program
+- Memisahkan _halaman_ ke beda file
+- Gunakan snippet `stless` untuk otomatis generate struktur kode widget (stateless)
+
+## Pertemuan 6
 - url_launcher
