@@ -53,4 +53,4 @@
 - Gunakan snippet `stless` untuk otomatis generate struktur kode widget (stateless)
 
 ## Pertemuan 6
-- url_launcher
+- packages: url_launcher, flutter_animate, flutter_switch, toggle_switch
