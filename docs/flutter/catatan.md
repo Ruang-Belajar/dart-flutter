@@ -53,3 +53,14 @@
 - shortcut merapihkan format: `Shift+Alt+F`
 - Objek: GridView
 - Shortcut: `Ctrl+.`
+
+## Pertemuan 6
+- New Project: layout3
+- Siapkan gambar dan folder _assets_, tambahkan konfigurasi di `pubspac.yaml`
+- Buat halaman 1:
+  - Text (nama), ElevatedButton ("Form", "Contact")
+- Tugas:
+  - tambahkan object package `animated_text_kit` ke halaman 1
+  - selesaikan halaman 2
+  - Layout 2: Submit/Publish
+  - repository: [https://classroom.github.com/a/VVK0NJfy](https://classroom.github.com/a/VVK0NJfy)
