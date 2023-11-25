@@ -5,6 +5,7 @@
 - [📚 Catatan Pertemuan](catatan.md)
 - [📑 Widget Catalog](widget-catalog.md)
 - [Contoh Layout](contoh-layout.md)
+- [Resource Gambar](resources.md)
 
 ## Dokumentasi
 1. [Flutter Documentation](https://docs.flutter.dev/)

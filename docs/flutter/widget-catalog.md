@@ -79,6 +79,38 @@ Expanded(
 
 ### GridView
 Membuat tampilan berbentuk _grid_.
+```dart
+GridView.count(
+  primary: false,
+  padding: const EdgeInsets.all(20),
+  crossAxisSpacing: 10,
+  mainAxisSpacing: 10,
+  crossAxisCount: 2,
+  children: [
+    Container(
+      padding: const EdgeInsets.all(8),
+      color: Colors.teal[100],
+      child: const Text("He'd have you all unravel at the"),
+    ),
+    Container(
+      padding: const EdgeInsets.all(8),
+      color: Colors.teal[200],
+      child: const Text('Heed not the rabble'),
+    ),
+    Container(
+      padding: const EdgeInsets.all(8),
+      color: Colors.teal[300],
+      child: const Text('Sound of screams but the'),
+    ),
+    Container(
+      padding: const EdgeInsets.all(8),
+      color: Colors.teal[400],
+      child: const Text('Who scream'),
+    ),    
+  ],
+)
+```
+
 **Referensi:**
 - [GridView - Flutter Docs](https://api.flutter.dev/flutter/material/GridView-class.html?)
 
@@ -109,21 +141,24 @@ Image(
 ```dart
 // Cara 1: membaca data dari asset
 Image(
-  image: AssetImage('https://flutter.github.io/assets-for-api-docs/assets/widgets/owl.jpg'),
+  image: AssetImage('assets/bg.jpg'),
 )
 ```
 
-Untuk bisa menggunakan assets, pastikan Anda mendaftarkan folder/file aset pada file `pubspec.yaml`, section `flutter`, dibawah `uses-material-design: true`
+Untuk bisa menggunakan _assets_, pastikan Anda mendaftarkan folder/file _assets_ pada file `pubspec.yaml`, section `flutter`, dibawah `uses-material-design: true`
 ```yaml
 flutter:
   uses-material-design: true
   assets:
-    - assets/
+  - assets/
 ```
+
+Perhatikan indentasi pada penulisan `assets:`  dan `- assets/`. Indentasi ini diperlukan.
+`- assets/` bisa dirubah sesuai dengan nama folder yang Anda gunakan untuk menyimpan gambar. Jadi, jika Anda menyimpan gambar di folder `img`, maka ditulis `- img/`.
 
 **Referensi:**
 - [Image - Flutter Docs](https://api.flutter.dev/flutter/widgets/Image-class.html)
-- [📚 Catatan Image + Online Resource](image.md)
+- [📚 Catatan Image](image.md)
 - [How to add image in flutter - stackoverflow](https://stackoverflow.com/questions/50903106/how-to-add-image-in-flutter)
 ---
 

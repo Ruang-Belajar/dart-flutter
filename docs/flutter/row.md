@@ -3,7 +3,7 @@
 ```dart
 // Row, lebar masing-masing item dibagi merata
 const Row(
-  children: <Widget>[
+  children: [
     Expanded(
       child: Text('Deliver features faster', textAlign: TextAlign.center),
     ),
