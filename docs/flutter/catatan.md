@@ -64,3 +64,14 @@
   - selesaikan halaman 2
   - Layout 2: Submit/Publish
   - repository: [https://classroom.github.com/a/VVK0NJfy](https://classroom.github.com/a/VVK0NJfy)
+
+
+## Pertemuan 7
+- Latihan membuat form
+  - 2 halaman
+- Siapkan bookmark untuk link-link penting
+- Persiapan ujian
+  - buat project flutter baru
+  - download repositori uts
+  - copy flutter project baru ke folder repository
+  - buka kembali folder repository menggunakan VS Code
