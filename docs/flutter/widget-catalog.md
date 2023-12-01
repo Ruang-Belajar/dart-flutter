@@ -184,6 +184,8 @@ Scaffold(
 **Referensi:**
 - [Scaffold - Flutter Docs](https://api.flutter.dev/flutter/material/Scaffold-class.html?)
 
+---
+
 ### Stack
 `Stack` adalah sebuah _wadah_ yang menyusun komponen _children_ secara bertumpuk.
 
@@ -239,5 +241,4 @@ TextField(
     labelText: 'Password',
 ),
 ```
-
 
