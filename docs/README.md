@@ -9,5 +9,5 @@ Flutter itu sendiri dikembangkan diatas bahasa pemrograman Dart. Dengan demikian
     <br>
     <a href="flutter/"><b>📚 BELAJAR FLUTTER</b></a><br>
     <br>
-    <!-- a href="flutter/soal/soal2.html"><b>📝 UTS Mobile Programming</b></a -->
+    <a href="flutter/soal/soal3.html"><b>📝 UTS Mobile Programming</b></a>
 </p>
