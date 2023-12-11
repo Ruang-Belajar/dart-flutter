@@ -9,9 +9,10 @@
 
 ## Dokumentasi
 1. [Flutter Documentation](https://docs.flutter.dev/)
-2. [Stateless & Stateful Widget](stateless-stateful.md)
-3. [📚 Halaman Baru dan Navigasi](navitigasi.md)
-4. [Membuka URL di Flutter](https://nextgen.co.id/membuka-url-di-flutter/)
+2. [🔻 StatelessWidget & StatefulWidget](stateless-stateful.md)
+3. [📚 StatefulWidget](stateful.md)
+4. [📚 Halaman Baru dan Navigasi](navitigasi.md)
+5. [Membuka URL di Flutter](https://nextgen.co.id/membuka-url-di-flutter/)
 
 ## Referensi Belajar
 - [iampawan/FlutterExampleApps](https://github.com/iampawan/FlutterExampleApps)
