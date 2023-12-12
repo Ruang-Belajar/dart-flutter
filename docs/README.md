@@ -1,12 +1,24 @@
-![](res/flutter-dart.jpg)
+# Dart/Flutter
 
-Flutter adalah framework yang dikembangkan untuk memfasilitasi pembuatan aplikasi yang bersifat multi-platform, sehingga dari sebuah source code, developer bisa sekaligus mengembangkan aplikasi untuk Android, iOS, dan web.
+## Catatan Belajar
+- [❗Persiapan Belajar](setup.md)
+- [📚 Catatan Pertemuan](catatan.md)
+- [📑 Widget Catalog](widget-catalog.md)
+- [Contoh Layout](contoh-layout.md)
+- [Resource Gambar](resources.md)
 
-Flutter itu sendiri dikembangkan diatas bahasa pemrograman Dart. Dengan demikian, untuk mempelajari Flutter, Anda perlu juga mempelajari Dart.
+## Dokumentasi
+1. [Dart: Developer Docs](https://dart.dev/tutorials)
+2. [Flutter Documentation](https://docs.flutter.dev/)
+3. [🔻 StatelessWidget & StatefulWidget](stateless-stateful.md)
+4. [📚 StatefulWidget](stateful.md)
+5. [📚 Halaman Baru dan Navigasi](navitigasi.md)
+6. [Membuka URL di Flutter](https://nextgen.co.id/membuka-url-di-flutter/)
 
-<p align=center>
-    <a href="dart/"><b>📚 BELAJAR DART</b></a><br>
-    <br>
-    <a href="flutter/"><b>📚 BELAJAR FLUTTER</b></a><br>
-    <br>    
-</p>
+## Referensi Belajar
+- [iampawan/FlutterExampleApps](https://github.com/iampawan/FlutterExampleApps)
+- [Solido/awesome-flutter](https://github.com/Solido/awesome-flutter)
+- [Tutorial Belajar Flutter - PT Nextgen Inovasi Indonesia](https://nextgen.co.id/tutorial-belajar-flutter)
+- [Youtube: Flutter Tutorial - Flutter Fundamentals (Erico Darmawan Handoyo)](https://www.youtube.com/watch?v=SoX3cel4LRM&list=PLZQbl9Jhl-VACm40h5t6QMDB92WlopQmV)
+- [bellshade/Dart](https://github.com/bellshade/Dart)
+- [PetaniKode: Dart](https://www.petanikode.com/belajar-dart/)
