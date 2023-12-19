@@ -15,7 +15,7 @@
 3. [🔻 StatelessWidget & StatefulWidget](stateless-stateful.md)
 4. [📚 StatefulWidget](stateful.md)
 5. [📚 Halaman Baru dan Navigasi](navitigasi.md)
-6. [Membuka URL di Flutter](https://nextgen.co.id/membuka-url-di-flutter/)
+6. [Membuka URL di Flutter](url_launcher.md)
 
 ## Referensi Belajar
 - [iampawan/FlutterExampleApps](https://github.com/iampawan/FlutterExampleApps)
