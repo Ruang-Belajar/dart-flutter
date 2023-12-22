@@ -23,3 +23,4 @@
 - [bellshade/Dart](https://github.com/bellshade/Dart)
 - [PetaniKode: Dart](https://www.petanikode.com/belajar-dart/)
 - [15 Flutter Projects for Beginners to Advanced](https://www.interviewbit.com/blog/flutter-projects/)
+- [70+ Flutter Projects For Beginners And Final Year Students](https://www.theinsaneapp.com/2021/06/flutter-projects-with-source-code.html)
