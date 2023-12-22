@@ -1,7 +1,5 @@
 # Dart/Flutter
 
-[📝 SOAL UTS SUSULAN 📝](soal/soal4.md)
-
 ## Catatan Belajar
 - [❗Persiapan Belajar](setup.md)
 - [📚 Catatan Pertemuan](catatan.md)
@@ -24,3 +22,4 @@
 - [Youtube: Flutter Tutorial - Flutter Fundamentals (Erico Darmawan Handoyo)](https://www.youtube.com/watch?v=SoX3cel4LRM&list=PLZQbl9Jhl-VACm40h5t6QMDB92WlopQmV)
 - [bellshade/Dart](https://github.com/bellshade/Dart)
 - [PetaniKode: Dart](https://www.petanikode.com/belajar-dart/)
+- [15 Flutter Projects for Beginners to Advanced](https://www.interviewbit.com/blog/flutter-projects/)

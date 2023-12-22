@@ -75,3 +75,17 @@
   - download repositori uts
   - copy flutter project baru ke folder repository
   - buka kembali folder repository menggunakan VS Code
+
+## Pertemuan 8
+- UTS
+
+## Pertemuan 9
+- [Stateless &  Stateful Widget](stateless-stateful.md)
+- [StatefulWidget](stateful.md)
+- Latihan:
+  - program _nama depan + nama belakang_
+  - program _hitung luas persegi_
+
+## Pertemuan 10
+- [url_launcher](url_launcher.md)
+- test program ke HP
