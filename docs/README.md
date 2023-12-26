@@ -10,10 +10,13 @@
 ## Dokumentasi
 1. [Dart: Developer Docs](https://dart.dev/tutorials)
 2. [Flutter Documentation](https://docs.flutter.dev/)
-3. [🔻 StatelessWidget & StatefulWidget](stateless-stateful.md)
+3. [StatelessWidget & StatefulWidget](stateless-stateful.md)
 4. [📚 StatefulWidget](stateful.md)
 5. [📚 Halaman Baru dan Navigasi](navitigasi.md)
-6. [Membuka URL di Flutter](url_launcher.md)
+6. [📚 Membuka URL di Flutter](url_launcher.md)
+
+## Latihan
+1. [Latihan String](latihan-string.md)
 
 ## Referensi Belajar
 - [iampawan/FlutterExampleApps](https://github.com/iampawan/FlutterExampleApps)

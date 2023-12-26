@@ -89,3 +89,10 @@
 ## Pertemuan 10
 - [url_launcher](url_launcher.md)
 - test program ke HP
+- Program _Kirim WA_
+
+## Pertemuan 11
+- Program _Kirim WA_
+  - validasi nomor telepon:
+  - [contoh-layout-6.png](res/contoh-layout-6.png)
+- [Contoh project - E-commerce](https://github.com/abuanwar072/E-commerce-App-UI-Flutter)

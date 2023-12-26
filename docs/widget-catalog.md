@@ -235,10 +235,11 @@ Text(
 
 ```dart
 TextField(
-  obscureText: false, // set 'true' untuk menjadikannya sebagai password input
   decoration: InputDecoration(
     border: OutlineInputBorder(),
-    labelText: 'Password',
+  )
 ),
 ```
+**Referensi:**
+- [📚 Catatan TextField](textfield.md)
 
