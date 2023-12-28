@@ -4,7 +4,7 @@ Daftar ini diambil dari [Flutter - Widget Catalog](https://docs.flutter.dev/ui/w
 ---
 ### AppBar
 
-**Referensi"**
+**Referensi**
 - [AppBar - Flutter Docs](https://api.flutter.dev/flutter/material/AppBar-class.html)
 
 ---
@@ -33,7 +33,6 @@ Column(
 - [Column - Flutter Docs](https://api.flutter.dev/flutter/widgets/Column-class.html)
 - [📚 Catatan Column](column.md)
 
-
 ---
 ### Container
 `Container` digunakan untuk "membungkus" _child_, mengatur ukuran blok area dan memberikan dekorasi seperti warna, _padding_, _border radius_.
@@ -49,7 +48,7 @@ Container(
 
 **Referensi"**
 - [Container - Flutter Docs](https://api.flutter.dev/flutter/widgets/Container-class.html)
-- [📚 Catatan `Container`](container.md)
+- [📚 Catatan Container](container.md)
 
 ---
 ### ElevatedButton
