@@ -96,3 +96,6 @@
   - validasi nomor telepon:
   - [contoh-layout-6.png](res/contoh-layout-6.png)
 - [Contoh project - E-commerce](https://github.com/abuanwar072/E-commerce-App-UI-Flutter)
+- [Tutorial Dart - pertanikode](https://www.petanikode.com/belajar-dart/)
+
+## Pertemuan 12
