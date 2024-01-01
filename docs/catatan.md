@@ -95,7 +95,10 @@
 - Program _Kirim WA_
   - validasi nomor telepon:
   - [contoh-layout-6.png](res/contoh-layout-6.png)
-- [Contoh project - E-commerce](https://github.com/abuanwar072/E-commerce-App-UI-Flutter)
 - [Tutorial Dart - pertanikode](https://www.petanikode.com/belajar-dart/)
+- Download [Contoh project - E-commerce](https://github.com/abuanwar072/E-commerce-App-UI-Flutter)
 
 ## Pertemuan 12
+- Review contoh project _e-commerce_
+- Modifikasi:
+  - rubah kategori (_Hand bag, Jewellery, Footwear, Dresses_), menjadi bahasa Indonesia

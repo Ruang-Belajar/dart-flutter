@@ -25,3 +25,27 @@ Berikut adalah setup dan persiapan yang perlu dilakukan untuk memulai belajar Fl
 - Jika Anda melakukannya dengan benar, maka Anda akan menemukan nama model HP yang tersambung di pojok kanan bawah _VS Code_.
 - Untuk bantuan, Anda bisa check [Youtube: Running App Flutter di Handphone Langsung via kabel USB](https://www.youtube.com/watch?v=f3p6fF79k0M)
 
+## Setup _Flutter Version Management_
+1. Install _fvm_
+    ```
+    dart pub global activate fvm
+    ```
+2. Setup VS Code
+   1. Edit `setting.json` (`ctrl+shift+p`: _Preferences: Open User Settings (JSON)_)
+   2. tambahkan
+      ```
+      "dart.flutterSdkPaths": ["C:\\Users\\$USER\\fvm\\versions"]
+      ```
+      _path_ fvm\version bisa dilihat melalui perintah `fvm list`
+   3. Install SDK di CLI menggunakan perintah `fvm install [version]`.
+   4. Aktifkan SDK di CLI menggunakan perintah `fvm use [version ]`, lakukan di folder project
+   5. DI VS Code, Pilih SDK yang akan digunakan (`ctrl+shift+p`: _Flutter Change SDK_)
+3. Untuk bantuan cek [video tutorial](https://www.youtube.com/watch?v=7NS-RyJH9GM)
+
+**Perintah _fvm_:**
+| perintah | keterangan |
+| --- | --- |
+| `fvm list` | menampilkan versi SDK yang terinstall. SDK yang diinstall manual (tidak menggunakan _fvm_ tidak akan muncul di list) |
+| `fvm install [version]` | install SDK `[version]` |
+| `fvm use [version]` | mengaktifkan SDK `[version]` |
+
