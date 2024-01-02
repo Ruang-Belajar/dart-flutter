@@ -99,6 +99,8 @@
 - Download [Contoh project - E-commerce](https://github.com/abuanwar072/E-commerce-App-UI-Flutter)
 
 ## Pertemuan 12
+- _Flutter Version Management_
 - Review contoh project _e-commerce_
 - Modifikasi:
   - rubah kategori (_Hand bag, Jewellery, Footwear, Dresses_), menjadi bahasa Indonesia
+- Tugas download dan setup project https://github.com/rajayogan/flutterui-curveddesigns
