@@ -16,7 +16,6 @@ Berikut adalah setup dan persiapan yang perlu dilakukan untuk memulai belajar Fl
 - gunakan perintah `flutter doctor` untuk memeriksa kelengkapan instalasi
 - Dalam kondisi jika kita hanya mau melakukan development aplikasi Windows saja, tanpa Android, kita bisa menonaktifkan pemeriksaan `flutter doctor` terhadap _Android SDK_ lewat perintah `flutter config --no-enable-android`
 
-
 ## Setup HP sebagai perangkat test aplikasi
 - Masuk ke _Developer Mode_ di HP.
 - Sambungkan HP ke PC menggunakan kabel USB.
@@ -43,6 +42,7 @@ Berikut adalah setup dan persiapan yang perlu dilakukan untuk memulai belajar Fl
 3. Untuk bantuan cek [video tutorial](https://www.youtube.com/watch?v=7NS-RyJH9GM)
 
 **Perintah _fvm_:**
+
 | perintah | keterangan |
 | --- | --- |
 | `fvm list` | menampilkan versi SDK yang terinstall. SDK yang diinstall manual (tidak menggunakan _fvm_ tidak akan muncul di list) |
