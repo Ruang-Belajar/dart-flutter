@@ -29,17 +29,19 @@ Berikut adalah setup dan persiapan yang perlu dilakukan untuk memulai belajar Fl
     ```
     dart pub global activate fvm
     ```
-2. Setup VS Code
-   1. Edit `setting.json` (`ctrl+shift+p`: _Preferences: Open User Settings (JSON)_)
-   2. tambahkan
+2. Install Flutter SDK
+   1. Pada _CLI_/_Command Prompt_, pastikan Anda bisa menjalankan perintah `fvm`. Jika belum tambahkan folder instalasi `fvm` ke _Windows Path_.
+   2. Install SDK di CLI menggunakan perintah `fvm install [version]`.
+   3. Aktifkan SDK di CLI menggunakan perintah `fvm use [version ]`, lakukan di folder project
+   4. DI VS Code, Pilih SDK yang akan digunakan (`ctrl+shift+p`: _Flutter Change SDK_)
+3. Setup VS Code
+   1. Temukan _folder SDK Flutter_ lewat perintah `fvm list`
+   2. Edit `setting.json` (`ctrl+shift+p`: _Preferences: Open User Settings (JSON)_)
+   3. tambahkan _folder SDK Flutter_
       ```
       "dart.flutterSdkPaths": ["C:\\Users\\$USER\\fvm\\versions"]
       ```
-      _path_ fvm\version bisa dilihat melalui perintah `fvm list`
-   3. Install SDK di CLI menggunakan perintah `fvm install [version]`.
-   4. Aktifkan SDK di CLI menggunakan perintah `fvm use [version ]`, lakukan di folder project
-   5. DI VS Code, Pilih SDK yang akan digunakan (`ctrl+shift+p`: _Flutter Change SDK_)
-3. Untuk bantuan cek [video tutorial](https://www.youtube.com/watch?v=7NS-RyJH9GM)
+4. Untuk bantuan cek [video tutorial](https://www.youtube.com/watch?v=7NS-RyJH9GM)
 
 **Perintah _fvm_:**
 
@@ -48,4 +50,5 @@ Berikut adalah setup dan persiapan yang perlu dilakukan untuk memulai belajar Fl
 | `fvm list` | menampilkan versi SDK yang terinstall. SDK yang diinstall manual (tidak menggunakan _fvm_ tidak akan muncul di list) |
 | `fvm install [version]` | install SDK `[version]` |
 | `fvm use [version]` | mengaktifkan SDK `[version]` |
+| `fvm releases` | menampilkan daftar _[version]_ yang tersedia |
 
