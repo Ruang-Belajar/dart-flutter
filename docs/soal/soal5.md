@@ -1,6 +1,6 @@
 # Soal 5
 
-Perbaiki program dibawah ini, isi bagian `______` akan program bisa dijalankan sesuai contoh:
+Perbaiki program dibawah ini, isi bagian `______` akan program bisa dijalankan sesuai contoh. Perhatikan label _// A //B //C //D_ ...
 
 
 ```dart
